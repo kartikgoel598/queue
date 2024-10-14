@@ -14,7 +14,7 @@ int main()
 	ifstream file("input.txt.txt");
 	if (!file)
 	{
-		cout << "unable to open up the file";
+		cout << "unable to open up the baba!";
 	}
 	string word{};
 	while (file >> word) {
