@@ -21,7 +21,7 @@ int main()
 		wordQueue.push(word);
 	}
 	file.close();
-	int wordsperline = 60;
+	int wordsperline = 80;
 	int count{};
 	while (!wordQueue.empty()) {
 		cout<< colors::bright_green << wordQueue.front() << " " <<	colors::reset;
